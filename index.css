@@ -146,7 +146,8 @@ img {
 }
 
 .mx-auto {
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .my-56 {
