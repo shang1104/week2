@@ -301,15 +301,6 @@ img {
   margin: 0 auto;
 }
 
-.other .poster-title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
 .contact a:hover {
   font-size: 28px;
   color: blue;
