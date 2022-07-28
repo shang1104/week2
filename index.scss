@@ -102,6 +102,10 @@ img{
 .pb-64{
     padding-bottom: 64px;
 }
+.py-20{
+    padding-top:20px;
+    padding-bottom: 20px;
+}
 
 .fz-20{
     font-size: 20px;
@@ -164,23 +168,29 @@ img{
 }
 
 .container{
+    max-width: 1200px;
     margin: 0 auto;
 }
+
 .banner{
-    position: relative;
-    img{
-        background-size: cover;
-    }
+    background-image: url(./images/banner.png);
+    background-size: cover;
+    background-position: center;
+    height: 71.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     .banner-text{
-        position: absolute;
-        top: 245px;
-        left: 806px;
+        display: flex;
+        flex-direction: column;
         h1{
             font-size: 80px;
-            line-height: 1.325;
+            line-height: 106px;
+            font-weight: 800;
         }
     }
 }
+
 .about{
     .about-list{
         p{
@@ -200,10 +210,6 @@ img{
             }
         }
     }
-}
-.brand{
-    max-width: 1200px;
-    margin: 0 auto;
 }
 
 .contact{
